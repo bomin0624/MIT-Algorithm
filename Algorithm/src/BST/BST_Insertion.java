@@ -1,3 +1,4 @@
+package BST;
 
 public class BST_Insertion {
 
