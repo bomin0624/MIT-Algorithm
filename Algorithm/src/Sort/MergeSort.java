@@ -1,3 +1,4 @@
+package Sort;
 /* Java program for Merge Sort */
 public class MergeSort 
 {   

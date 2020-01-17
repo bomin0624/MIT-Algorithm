@@ -1,3 +1,4 @@
+package Sort;
 // Java program for implementation of Heap Sort 
 
 public class HeapSort 
