@@ -1,3 +1,4 @@
+package Peak;
 // Finding peak element in a 2D Array. 
 public class PeakFinder2D{ 
     //static int MAX = 100; 

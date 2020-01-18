@@ -1,3 +1,4 @@
+package Peak;
 
 public class PeakFinder {
 	
