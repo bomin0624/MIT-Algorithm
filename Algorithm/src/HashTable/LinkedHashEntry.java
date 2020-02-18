@@ -1,5 +1,6 @@
 package HashTable;
 
+//For Hash table Chaining
 public class LinkedHashEntry {
 	private int key;
 
