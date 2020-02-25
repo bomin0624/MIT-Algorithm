@@ -13,8 +13,8 @@ public class HashMapOA {
           for (int i = 0; i < TABLE_SIZE; i++)
                 table[i] = null;
     }
-    //Search 
-    public int get(int key) {
+    
+    public int Search(int key) {
     	
     	  //Division method
           int hash = (key % TABLE_SIZE);
@@ -40,8 +40,8 @@ public class HashMapOA {
     }
 
 
-    //Insert
-    public void put(int key, int value) {
+    
+    public void Insert(int key, int value) {
     		
           int hash = (key % TABLE_SIZE);
 
@@ -82,9 +82,9 @@ public class HashMapOA {
     }
 
 
-    //Delete
+    
     //與Search所使用的Solution差不多
-    public void remove(int key) {
+    public void Delete(int key) {
 
           int hash = (key % TABLE_SIZE);
 
