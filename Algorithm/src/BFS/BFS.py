@@ -1,4 +1,4 @@
-from collections import deque #
+from collections import deque 
 
 def bfs(graph, vertex):
     queue = deque([vertex])
@@ -13,7 +13,7 @@ def bfs(graph, vertex):
                 parent[n] = v
     return level, parent
 
-    graph = {
+graph = {
     'A': ['B', 'C'],
     'B': ['A', 'D', 'E'],
     'C': ['A', 'D'],
@@ -21,4 +21,4 @@ def bfs(graph, vertex):
     'E': ['B', 'D']
 }
 
-    bfs(graph,'A')
+print(bfs(graph,'A'))
