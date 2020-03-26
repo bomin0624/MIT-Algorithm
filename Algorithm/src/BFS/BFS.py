@@ -1,3 +1,5 @@
+# Analysis: θ(V+E)
+
 from collections import deque 
 
 def bfs(graph, vertex):
